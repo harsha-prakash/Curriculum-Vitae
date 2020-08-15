@@ -1,0 +1,282 @@
+ %-------------------------
+% Resume in Latex
+% Author : Harish Prakash
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.575in}
+\addtolength{\evensidemargin}{-0.575in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{0.75in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\color{blue}     
+  %vspace{} - vertical space between two sections
+}{}{0em}{}[\color{black}\titlerule \vspace{-3pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-3pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-10pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{/}{\Large Harish Prakash}} & Email : \href{mailto:srinivas.harish27@gmail.com}{\bf srinivas.harish27@gmail.com}\\
+  \href{https://github.com/harsha-prakash}{https://github.com/harsha-prakash} & Mobile : \bf +91-994-001-4554\\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {SRM Institute of Science and Technology}{Chennai, India}
+      {	Bachelor of Technology in Electronics and Communication Engineering;  GPA: 8.2/10.0}{July. 2017 -- Present}
+      
+    \resumeSubheading
+      {Srimathi Sundaravalli Memorial School}{Chennai, India}
+      {Grade 12; Obtained Grade: 87.5\%}{Jun. 2016 -- May. 2017}
+      
+     \resumeSubheading
+       {Srimathi Sundaravalli Memorial School}{Chennai, India}
+       {Grade 10; CGPA: 10/10 }{Jun. 2014 -- May. 2015}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Professional Experience}
+  \resumeSubHeadingListStart 
+
+    \resumeSubheading 
+      {Aara Tech Private Limited}{Chennai, India}
+      {Data Science Research Intern}{Dec. 2019 - January. 2020}
+      \begin{itemize} 
+          \item Worked in the Logistics Sector to develop an end-to-end model for choosing warehouses based on population clusters in a given topography
+          \vspace{-1pt}
+          \item Developed a new clustering technique using \textbf{Unsupervised Learning} techniques for determination of optimized candidate locations 
+      \end{itemize}
+        
+     \vspace{-5pt}   
+    \resumeSubheading
+      {TakenMind Technologies}{Virtual}
+      {Data Analyst}{July. 2019}
+      \begin{itemize} 
+          \item Analyzed and Visualised data in \textbf{Python} using Pycharm IDE on various datasets; used \textbf{Tableau} for creative plot visualisations 
+          \vspace{-1pt}
+          \item Became familiar with NumPy, Pandas, Matplotlib, scikit-learn and other basic \textbf{libraries} for data preprocessing and visualisation
+      \end{itemize}
+     \vspace{-5pt} 
+    \resumeSubheading 
+      {Brakes India Private Limited}{Chennai, India}
+      {InPlant Trainee (ML applications)}{June. 2019}
+      \begin{itemize} 
+          \item Understood the applications of \textbf{Machine Learning} in brake shoe testing rigs deployed for fault detection and performance measurement; observed multi-component assembly lines
+          \vspace{-1pt}
+          \item Developed 3D projections of brake shoes in advanced designing softwares -- Catia-V5 and AutoCAD  
+      \end{itemize}
+         
+   % \resumeSubheading
+    %  {Infogro Technologies}{Chennai, India}
+     % {Embedded Systems Intern}{June. 2018}
+      %\begin{itemize} 
+       %   \item  Learnt various concepts associated with Embedded System Design including PCB fabrication, component interfacing and structural arrangements.   
+       %   \item Familiarized with \textbf{PSPICE} for circuit design and \textbf{Keil} for circuit simulations
+      %\end{itemize}
+         
+  \resumeSubHeadingListEnd
+
+
+%----------TECHNICAL PROJECTS-----------------
+\section{Technical Projects}
+  \resumeSubHeadingListStart
+       \resumeSubheading
+          {Sound-based Bird Classifier using Transfer Learning}{Chennai, India}
+          {Undergraduate Thesis (Ongoing)}{August. 2020 -- Present}   
+         \begin{itemize} \vspace{4pt}
+           \item Currently working on a model to preprocess audio signals and identify bird species based on spectroscopy and multi-label image classification
+           \item Planning to implement Transfer Learning and deep CNNs to achieve state-of-the-art accuracy
+    
+         \end{itemize}
+       
+        \resumeSubheading
+          {An Ensemble Clustering Model for Warehouse Location Determination }{Chennai, India}
+          {Pending Submission}{Dec. 2019 -- Mar. 2020}   
+         \begin{itemize} \vspace{4pt}
+           \item Developed an \textbf{unsupervised clustering algorithm} based on density-based spatial clustering of address points to identify an ideal warehouse candidate location
+           \item Considerable CPU time reduction was achieved in contrast to similar iterations with existing clustering techniques under similar conditions
+    
+         \end{itemize}
+  \resumeSubHeadingListEnd
+
+%----------FREELANCE PROJECTS-----------------
+\section{Freelance Projects}
+   \resumeSubHeadingListStart
+      \resumeSubItem 
+          {Hand-written Digits Recognizer}{Created a neural network model to predict handwritten digits with 90\% accuracy}
+      \resumeSubItem
+          {Dogs \& Cats Breed Classifier}{Trained ResNet34 with Transfer Learning to differentiate dog and cat breeds}
+      \resumeSubItem
+          {Predicting Artists from Artworks}{Worked on Kaggle Dataset using fastai-v2 to achieve  state-of-the-art accuracy}
+      \resumeSubItem
+          {Prediction of Rt for COVID-19}{Implemented Realtime Effective Reproduction Number (Rt) using Indian Datasets}
+      \resumeSubItem
+          {Employee Attrition Prediction}{Analysed and visualised data to predict factors behind employee attrition }
+      \resumeSubItem
+          {Recommender Systems}{Implemented different recommendation techniques for movie recommendations}
+      \resumeSubItem
+          {Flower Classifier}{Scraped images from google to classify different flowers through image classification techniques }
+   \resumeSubHeadingListEnd
+%-------------Professional Development--------------------------
+\section{Professional Development}
+  \resumeSubHeadingListStart
+       \resumeSubheading 
+            {Coursera}{MOOC Platform}
+            {Deep Learning Specialization}{June. 2020 -- Aug. 2020}
+        
+        \resumeSubheading
+            {Coursera}{MOOC Platform}
+            {Infectious Disease Modelling Specialization}{June. 2020 -- Aug. 2020}
+            
+        \resumeSubheading
+            {Indian Institute of Remote Sensing, ISRO}{Distance Learning}
+            {Basic Principle of Remote Sensing}{June. 2020}
+        
+        \resumeSubheading
+            {National Programme on Technology Enhanced Learning}{MOOC Platform}
+            {Data Science for Engineers; Intermediate Python}{Jul. 2019 -- Sep. 2019}
+            
+        \resumeSubheading
+            {National Programme on Technology Enhanced Learning}{MOOC Platform}
+            {Introduction to Machine Learning}{Jan. 2020 -- Apr. 2020}
+            
+    \resumeSubHeadingListEnd  
+        
+%--------Technical Skills------------
+\section{Technical Skills}
+ \resumeSubHeadingListStart
+   \item{
+     \textbf{Languages}{: Python, R, C++, C, SQL}
+     \hfill
+     \textbf{Softwares}{: Pycharm, Conda, Visual Studio}
+   } \vspace{-5pt}
+   \item{
+     \textbf{Web Applications}{: Jupyter Notebook, Google Colab}
+     \hfill
+     \textbf{Simulations}{: Matlab, Octave, AutoCAD}
+   } \vspace{-5pt}
+   \item{
+     \textbf{Libraries used}{: Fastai, Pytorch, Tensorflow, Keras, scikit-learn}
+     \hfill
+     \textbf{Parallel Programming}{: CUDA}
+     }
+ \resumeSubHeadingListEnd
+
+%----------POSITIONS OF RESPONSIBILITY-------------
+\section{Position of Responsibility} \vspace{2pt}
+  \resumeSubHeadingListStart
+  
+     \item {
+      \textbf{Head Organizer, Literary Club} \hfill {\emph{Jan. 2018  - June. 2019}}
+      \begin{itemize} \vspace{-5pt}
+          \item Event Coordinator for literary events in Milan'18 and Milan'19 - an inter-college national cultural fest
+          \vspace{-1pt}
+          \item Spearheaded IMPACT'18 - A debut national level debate competition by SRM   
+      \end{itemize} 
+      }    
+  
+    \item {
+      \textbf{School Pupil Leader} \hfill {\emph{June. 2016 - Mar. 2017}}
+      \begin{itemize} \vspace{-5pt}
+          \item Voted by majority to spearhead and lead high school decision committees 
+          \vspace{-1pt}
+          \item Planned, coordinated and led the high school contingent in cultural, sports and competitive events
+      \end{itemize}
+     }
+    
+  \resumeSubHeadingListEnd   
+      
+ %-----------WORKSHOPS-----------------
+\section{Volunteer Experience}
+ \resumeSubHeadingListStart
+     \item {
+      \textbf{U\&I} \hfill {\emph {July. 2019 -- Apr. 2020}}
+      
+      \begin{itemize} \vspace{-5pt}
+          \item Volunteered for 2 hours/week to teach basic education for underprivileged children under 6th grade
+          \item Conducted workshops, facilitated social events and worked with co-volunteers to build sustainable lesson plans 
+           \end{itemize}
+       }
+        
+      \item {
+      \textbf{Swachh Bharat Mission} \hfill {\emph {June. 2018 -- July. 2018}}
+      
+      \begin{itemize} \vspace{-5pt}
+          \item Participated in Indian government's program to attain universal sanitation for 100 hours
+          \item Led a team of 10 members, adopted a village (Sithalapakkam, Chennai) and extensively campaigned for hygiene awareness; organized competitions and created a cleanliness drive to sanitize multiple areas.
+           \end{itemize}
+       }
+
+
+      
+      
+  \resumeSubHeadingListEnd
+      
+
+
+
+%-------------------------------------------
+\end{document}
