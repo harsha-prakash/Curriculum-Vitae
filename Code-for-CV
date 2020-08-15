@@ -203,7 +203,11 @@
             {National Programme on Technology Enhanced Learning}{MOOC Platform}
             {Introduction to Machine Learning}{Jan. 2020 -- Apr. 2020}
             
-    \resumeSubHeadingListEnd  
+        \resumeSubheading
+            {Practical deep learning for Coders,v3}{MOOC Platform}
+            {Deep learning using fastai-v3}{July. 2020 -- Present}
+            
+     \resumeSubHeadingListEnd  
         
 %--------Technical Skills------------
 \section{Technical Skills}
