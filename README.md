@@ -7,4 +7,7 @@ This repository contains my CV created with Overleaf using LaTeX. Overleaf is a 
 ### Motivation 
 I created this CV for future research collaboration requests and to act as a general documentation of my experiences and skills. I found this 2-page resume slick and presentable than a congested 1-page/double column formats. Feel free to use my code and fork it for your own twitching, but do mention the licensing of Latex under MIT. 
 
-### Preview 
+### License
+Code and CV's content created by [harsha-prakash](https://github.com/harsha-prakash)
+
+Latex licensed under MIT
