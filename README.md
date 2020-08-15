@@ -1,5 +1,5 @@
 # Curriculum-Vitae
-A LaTeX type-scripted curriculum vitae for academic and professional information
+A LaTeX type-scripted Curriculum Vitae for academic and professional information
 
 ### Overview
 This repository contains my CV created with Overleaf using LaTeX. Overleaf is a highly versatile cloud-based Latex editor, rich with templates for any scientific docs. I personally preferred Latex as it spruces your Resume/Cv with neat and orderly indentations. 
